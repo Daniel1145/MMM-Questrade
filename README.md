@@ -35,9 +35,9 @@ The following configuration are optional, and can be configured to match your ne
 
 | Option                       | Description
 | ---------------------------- | -----------
-| `tableTitle`                 | The title of the table. **Default value:** `Positions`
-| `maxRows`                    | The maximum number of rows to display. **Default value:** `10`
-| `rowBorder`                  | Whether to display borders between each row or not. **Default value:** `true`
-| `updateInterval`             | How often to fetch and update the table data (in milliseconds). **Default value:** `30000`
-| `columns`                    | An array containing the columns to be displayed. Possible values are the properties of the Position returned by the Questrade api call, which is found here: `https://www.questrade.com/api/documentation/rest-operations/account-calls/accounts-id-positions`. **Default value:** `['symbol', 'openQuantity', 'currentMarketValue', 'openPnl', 'dayPnl']`
-| `columnAliases`              | Object containing the column titles that should be used instead of the default names returned by the api. **Default value:** `{symbol: 'Symbol', openQuantity: 'Open Quantity', currentMarketValue: 'Market Value', openPnl: 'Open P&L', dayPnl: 'Day P&L'}`
+| `tableTitle`                 | The title of the table. <br> **Default value:** `Positions`
+| `maxRows`                    | The maximum number of rows to display. <br> **Default value:** `10`
+| `rowBorder`                  | Whether to display borders between each row or not. <br> **Default value:** `true`
+| `updateInterval`             | How often to fetch and update the table data (in milliseconds). <br> **Default value:** `30000`
+| `columns`                    | An array containing the columns to be displayed. Possible values are the properties of the Position returned by the Questrade api call, which is found here: `https://www.questrade.com/api/documentation/rest-operations/account-calls/accounts-id-positions`. <br> **Default value:** `['symbol', 'openQuantity', 'currentMarketValue', 'openPnl', 'dayPnl']`
+| `columnAliases`              | Object containing the column titles that should be used instead of the default names returned by the api. <br> **Default value:** `{symbol: 'Symbol', openQuantity: 'Open Quantity', currentMarketValue: 'Market Value', openPnl: 'Open P&L', dayPnl: 'Day P&L'}`
